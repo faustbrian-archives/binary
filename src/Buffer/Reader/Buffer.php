@@ -2,16 +2,14 @@
 
 declare(strict_types=1);
 
-/*
- * This file is part of Binary.
+/**
+ * Copyright (c) Konceiver Oy <legal@konceiver.dev>
  *
- * (c) KodeKeep <hello@kodekeep.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
+ * For the full copyright and license information, please view
+ * the LICENSE file that was distributed with this source code.
  */
 
-namespace KodeKeep\Binary\Buffer\Reader;
+namespace Konceiver\Binary\Buffer\Reader;
 
 class Buffer
 {
@@ -64,7 +62,7 @@ class Buffer
      *
      * @param int $value
      *
-     * @return \KodeKeep\Binary\Buffer\Reader\Buffer
+     * @return \Konceiver\Binary\Buffer\Reader\Buffer
      */
     public function position(int $value): self
     {
@@ -79,7 +77,7 @@ class Buffer
      *
      * @param int $value
      *
-     * @return \KodeKeep\Binary\Buffer\Reader\Buffer
+     * @return \Konceiver\Binary\Buffer\Reader\Buffer
      */
     public function skip(int $value): self
     {

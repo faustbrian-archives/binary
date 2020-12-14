@@ -2,25 +2,23 @@
 
 declare(strict_types=1);
 
-/*
- * This file is part of Binary.
+/**
+ * Copyright (c) Konceiver Oy <legal@konceiver.dev>
  *
- * (c) KodeKeep <hello@kodekeep.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
+ * For the full copyright and license information, please view
+ * the LICENSE file that was distributed with this source code.
  */
 
-namespace KodeKeep\Binary\Buffer\Reader\Concerns;
+namespace Konceiver\Binary\Buffer\Reader\Concerns;
 
-use KodeKeep\Binary\Integer\Reader;
+use Konceiver\Binary\Integer\Reader;
 
 trait Integer
 {
     /**
      * Read a signed 8 bit integer.
      *
-     * @return \KodeKeep\Binary\Buffer\Reader\Buffer
+     * @return \Konceiver\Binary\Buffer\Reader\Buffer
      */
     public function readInt8()
     {
@@ -34,7 +32,7 @@ trait Integer
     /**
      * Read a signed 16 bit integer.
      *
-     * @return \KodeKeep\Binary\Buffer\Reader\Buffer
+     * @return \Konceiver\Binary\Buffer\Reader\Buffer
      */
     public function readInt16()
     {
@@ -48,7 +46,7 @@ trait Integer
     /**
      * Read a signed 32 bit integer.
      *
-     * @return \KodeKeep\Binary\Buffer\Reader\Buffer
+     * @return \Konceiver\Binary\Buffer\Reader\Buffer
      */
     public function readInt32()
     {
@@ -62,7 +60,7 @@ trait Integer
     /**
      * Read a signed 64 bit integer.
      *
-     * @return \KodeKeep\Binary\Buffer\Reader\Buffer
+     * @return \Konceiver\Binary\Buffer\Reader\Buffer
      */
     public function readInt64()
     {

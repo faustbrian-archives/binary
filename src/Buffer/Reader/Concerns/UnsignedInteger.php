@@ -2,25 +2,23 @@
 
 declare(strict_types=1);
 
-/*
- * This file is part of Binary.
+/**
+ * Copyright (c) Konceiver Oy <legal@konceiver.dev>
  *
- * (c) KodeKeep <hello@kodekeep.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
+ * For the full copyright and license information, please view
+ * the LICENSE file that was distributed with this source code.
  */
 
-namespace KodeKeep\Binary\Buffer\Reader\Concerns;
+namespace Konceiver\Binary\Buffer\Reader\Concerns;
 
-use KodeKeep\Binary\UnsignedInteger\Reader;
+use Konceiver\Binary\UnsignedInteger\Reader;
 
 trait UnsignedInteger
 {
     /**
      * Read an unsigned 8 bit integer.
      *
-     * @return \KodeKeep\Binary\Buffer\Reader\Buffer
+     * @return \Konceiver\Binary\Buffer\Reader\Buffer
      */
     public function readUInt8()
     {
@@ -34,7 +32,7 @@ trait UnsignedInteger
     /**
      * Read an unsigned 16 bit integer.
      *
-     * @return \KodeKeep\Binary\Buffer\Reader\Buffer
+     * @return \Konceiver\Binary\Buffer\Reader\Buffer
      */
     public function readUInt16()
     {
@@ -48,7 +46,7 @@ trait UnsignedInteger
     /**
      * Read an unsigned 32 bit integer.
      *
-     * @return \KodeKeep\Binary\Buffer\Reader\Buffer
+     * @return \Konceiver\Binary\Buffer\Reader\Buffer
      */
     public function readUInt32()
     {
@@ -62,7 +60,7 @@ trait UnsignedInteger
     /**
      * Read an unsigned 64 bit integer.
      *
-     * @return \KodeKeep\Binary\Buffer\Reader\Buffer
+     * @return \Konceiver\Binary\Buffer\Reader\Buffer
      */
     public function readUInt64()
     {

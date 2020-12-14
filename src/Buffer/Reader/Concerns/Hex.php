@@ -2,18 +2,16 @@
 
 declare(strict_types=1);
 
-/*
- * This file is part of Binary.
+/**
+ * Copyright (c) Konceiver Oy <legal@konceiver.dev>
  *
- * (c) KodeKeep <hello@kodekeep.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
+ * For the full copyright and license information, please view
+ * the LICENSE file that was distributed with this source code.
  */
 
-namespace KodeKeep\Binary\Buffer\Reader\Concerns;
+namespace Konceiver\Binary\Buffer\Reader\Concerns;
 
-use KodeKeep\Binary\Hex\Reader;
+use Konceiver\Binary\Hex\Reader;
 
 trait Hex
 {
@@ -22,7 +20,7 @@ trait Hex
      *
      * @param int $length
      *
-     * @return \KodeKeep\Binary\Buffer\Reader\Buffer
+     * @return \Konceiver\Binary\Buffer\Reader\Buffer
      */
     public function readHex(int $length)
     {
@@ -38,7 +36,7 @@ trait Hex
      *
      * @param int $length
      *
-     * @return \KodeKeep\Binary\Buffer\Reader\Buffer
+     * @return \Konceiver\Binary\Buffer\Reader\Buffer
      */
     public function readHexBytes(int $length)
     {
@@ -50,7 +48,7 @@ trait Hex
      *
      * @param int $length
      *
-     * @return \KodeKeep\Binary\Buffer\Reader\Buffer
+     * @return \Konceiver\Binary\Buffer\Reader\Buffer
      */
     public function readHexRaw(int $length)
     {

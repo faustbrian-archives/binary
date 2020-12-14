@@ -2,18 +2,16 @@
 
 declare(strict_types=1);
 
-/*
- * This file is part of Binary.
+/**
+ * Copyright (c) Konceiver Oy <legal@konceiver.dev>
  *
- * (c) KodeKeep <hello@kodekeep.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
+ * For the full copyright and license information, please view
+ * the LICENSE file that was distributed with this source code.
  */
 
-namespace KodeKeep\Binary\Buffer\Writer\Concerns;
+namespace Konceiver\Binary\Buffer\Writer\Concerns;
 
-use KodeKeep\Binary\Integer\Writer;
+use Konceiver\Binary\Integer\Writer;
 
 trait Integer
 {
@@ -22,7 +20,7 @@ trait Integer
      *
      * @param int $value
      *
-     * @return \KodeKeep\Binary\Buffer\Writer\Buffer
+     * @return \Konceiver\Binary\Buffer\Writer\Buffer
      */
     public function writeInt8(int $value): self
     {
@@ -36,7 +34,7 @@ trait Integer
      *
      * @param int $value
      *
-     * @return \KodeKeep\Binary\Buffer\Writer\Buffer
+     * @return \Konceiver\Binary\Buffer\Writer\Buffer
      */
     public function writeInt16(int $value): self
     {
@@ -50,7 +48,7 @@ trait Integer
      *
      * @param int $value
      *
-     * @return \KodeKeep\Binary\Buffer\Writer\Buffer
+     * @return \Konceiver\Binary\Buffer\Writer\Buffer
      */
     public function writeInt32(int $value): self
     {
@@ -64,7 +62,7 @@ trait Integer
      *
      * @param int $value
      *
-     * @return \KodeKeep\Binary\Buffer\Writer\Buffer
+     * @return \Konceiver\Binary\Buffer\Writer\Buffer
      */
     public function writeInt64(int $value): self
     {

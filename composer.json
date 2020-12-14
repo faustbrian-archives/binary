@@ -1,17 +1,17 @@
 {
-    "name": "kodekeep/binary",
+    "name": "konceiver/binary",
     "description": "A developer-experience focused wrapper around pack and unpack.",
     "keywords": [
-        "kodekeep",
+        "konceiver",
         "binary"
     ],
-    "homepage": "https://github.com/kodekeep/binary",
-    "license": "MPL-2.0",
+    "homepage": "https://github.com/konceiver/binary",
+    "license": "MIT",
     "authors": [
         {
             "name": "Brian Faust",
-            "email": "brian@kodekeep.com",
-            "homepage": "https://kodekeep.com",
+            "email": "brian@konceiver.com",
+            "homepage": "https://konceiver.dev",
             "role": "Developer"
         }
     ],
@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "KodeKeep\\Binary\\": "src"
+            "Konceiver\\Binary\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "KodeKeep\\Binary\\Tests\\": "tests"
+            "Konceiver\\Binary\\Tests\\": "tests"
         }
     },
     "scripts": {

@@ -1,18 +1,18 @@
 # Binary
 
-[![Latest Version](https://badgen.net/packagist/v/kodekeep/binary)](https://packagist.org/packages/kodekeep/binary)
-[![Software License](https://badgen.net/packagist/license/kodekeep/binary)](https://packagist.org/packages/kodekeep/binary)
-[![Build Status](https://img.shields.io/github/workflow/status/kodekeep/binary/run-tests?label=tests)](https://github.com/kodekeep/binary/actions?query=workflow%3Arun-tests+branch%3Amaster)
-[![Coverage Status](https://badgen.net/codeclimate/coverage/kodekeep/binary)](https://codeclimate.com/github/kodekeep/binary)
-[![Quality Score](https://badgen.net/codeclimate/maintainability/kodekeep/binary)](https://codeclimate.com/github/kodekeep/binary)
-[![Total Downloads](https://badgen.net/packagist/dt/kodekeep/binary)](https://packagist.org/packages/kodekeep/binary)
+[![Latest Version](https://badgen.net/packagist/v/konceiver/binary)](https://packagist.org/packages/konceiver/binary)
+[![Software License](https://badgen.net/packagist/license/konceiver/binary)](https://packagist.org/packages/konceiver/binary)
+[![Build Status](https://img.shields.io/github/workflow/status/konceiver/binary/run-tests?label=tests)](https://github.com/konceiver/binary/actions?query=workflow%3Arun-tests+branch%3Amaster)
+[![Coverage Status](https://badgen.net/codeclimate/coverage/konceiver/binary)](https://codeclimate.com/github/konceiver/binary)
+[![Quality Score](https://badgen.net/codeclimate/maintainability/konceiver/binary)](https://codeclimate.com/github/konceiver/binary)
+[![Total Downloads](https://badgen.net/packagist/dt/konceiver/binary)](https://packagist.org/packages/konceiver/binary)
 
 This package was created by, and is maintained by [Brian Faust](https://github.com/faustbrian), and provides a developer-experience focused wrapper around pack and unpack.
 
 ## Installation
 
 ```bash
-composer require kodekeep/binary
+composer require konceiver/binary
 ```
 
 ## Testing
@@ -31,16 +31,12 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ## Security
 
-If you discover a security vulnerability within this package, please send an e-mail to hello@kodekeep.com. All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within this package, please send an e-mail to security@konceiver.dev. All security vulnerabilities will be promptly addressed.
 
 ## Credits
 
 This project exists thanks to all the people who [contribute](../../contributors).
 
-## Support Us
-
-We invest a lot of resources into creating and maintaining our packages. You can support us and the development through [GitHub Sponsors](https://github.com/sponsors/faustbrian).
-
 ## License
 
-Binary is an open-sourced software licensed under the [MPL-2.0](LICENSE.md).
+This is free and open source software under the terms of the [MIT License](./LICENSE).

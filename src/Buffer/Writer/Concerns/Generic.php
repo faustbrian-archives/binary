@@ -2,16 +2,14 @@
 
 declare(strict_types=1);
 
-/*
- * This file is part of Binary.
+/**
+ * Copyright (c) Konceiver Oy <legal@konceiver.dev>
  *
- * (c) KodeKeep <hello@kodekeep.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
+ * For the full copyright and license information, please view
+ * the LICENSE file that was distributed with this source code.
  */
 
-namespace KodeKeep\Binary\Buffer\Writer\Concerns;
+namespace Konceiver\Binary\Buffer\Writer\Concerns;
 
 trait Generic
 {
@@ -20,7 +18,7 @@ trait Generic
      *
      * @param string $value
      *
-     * @return \KodeKeep\Binary\Buffer\Writer\Buffer
+     * @return \Konceiver\Binary\Buffer\Writer\Buffer
      */
     public function writeString(string $value): self
     {
@@ -34,7 +32,7 @@ trait Generic
      *
      * @param int $length
      *
-     * @return \KodeKeep\Binary\Buffer\Writer\Buffer
+     * @return \Konceiver\Binary\Buffer\Writer\Buffer
      */
     public function fill(int $length): self
     {
